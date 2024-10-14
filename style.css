@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #fff;
+    color: #111111;
+}
+header{
+    position: fixed;
+    top:0;
+    right: 0;
+    width: 100%; /* je done width complet pour l header doit etre en gauch */
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    column-gap: 139px;   /*pour faire un gap entre logo et nav*/
+    background: transparent;
+    padding: 30px 5%;
+}
+.logo{
+    width: 75px;
+    height: 75px;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    font-size: 20px;
+    padding: 10px 22px;
+    font-weight: 500;
+    color: #F5F5F5;
+}
+.navbar a:visited{
+    color: #E9BD8C;
+}
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image/Rectangle-10.png);
+    background-size: cover;
+    background-position: center;
+    display: grid;/*pour le contenu doit etre dans un column */
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+}
+.home-text{
+    margin-left: 83px;
+}
+.home .yellowP{
+    color: #E9BD8C;
+    font-size:18px ;
+    font-weight: 500;
+    margin: 20px 0;
+    font-family:'Poppins', sans-serif;
+} 
+.home-text h1{
+    margin: 12px 0;
+    color: #F5F5F5;
+    font-family:"Sansita Swashed", system-ui;
+    font-size: 74px;
+    font-weight: 200;
+}
+.inline{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.inline button{
+    background-color: #933C24;
+    padding: 12px 22px;
+    border-radius: 12px;
+    color: #F5F5F5;
+    font-size: 17px;
+    font-weight: 500;
+    
+}

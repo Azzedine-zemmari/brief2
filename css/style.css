@@ -44,15 +44,14 @@ header {
     color: #F5F5F5;
 }
 
-.navbar a:visited {
+.navbar li:nth-of-type(1) a {
     color: #E9BD8C;
 }
-
 .home {
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url(./image/Rectangle-10.png);
+    background-image: url("../image/Rectangle-10.png");
     background-size: cover;
     background-position: center;
     display: grid;
@@ -150,7 +149,7 @@ header.sticky {
     margin-top: 150px;
     width: 100%;
     height: 500px;
-    background-image: url('./image/Rectangle-75.png');
+    background-image: url('../image/Rectangle-75.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

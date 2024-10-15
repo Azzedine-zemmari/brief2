@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #fff;
+    color: #111111;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 15px 5%;
+    background-color: #111111;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    column-gap: 139px;
+}
+.navbar{
+    display: flex;
+}
+.logo {
+    width: 75px;
+    height: 75px;
+}
+.navbar a {
+    font-size: 20px;
+    padding: 10px 22px;
+    font-weight: 500;
+    color: #F5F5F5;
+}
+.navbar li:nth-of-type(2) a {
+    color: #E9BD8C;
+}
+.menu {
+    width: 72%;
+    margin: 125px auto 0 auto;
+}
+
+.menu>h1 {
+    text-align: center;
+    font-family: "Sansita Swashed", system-ui;
+    font-size: 64px;
+    font-weight: 500;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(2,auto);
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 20px;
+}
+.card{
+    position: relative;
+    width: 360px;
+    height: 415px;
+    background-image: url("../image/Rectangle-69.png");
+    background-position: center;
+    background-size: cover;
+}
+.card .patisry {
+    width: 220px;
+    margin: 10px 80px 0 80px;
+}
+.card .croisant2{
+    width: 220px;
+    margin: 10px 70px 50px;
+}
+.card .bagete{
+    width: 220px;
+    margin: 10px 70px 60px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 20px 0 20px;
+    color:#F5F5F5;
+    align-items: center;
+}
+.price p{
+    font-weight: 400;
+    font-size: 24px;
+}
+.detailCard{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 20px 15px 20px;
+    color: #F5F5F5;
+    align-items: center;
+}
+.detailCard p{
+    font-weight: 400;
+    font-size: 20px;
+}
+.detailCard button{
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: #933C24;
+    color: #F5F5F5;
+}
+.featured {
+    width: 72%;
+    margin: 50px auto 0 ;
+}
+
+.featured>h2 {
+    text-align: center;
+    font-family: "Sansita Swashed", system-ui;
+    font-size: 64px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.Treats{
+    display: flex;
+    column-gap: 10px;
+}
+.treat{
+    display: flex;
+    flex-direction: column;
+}
+.treatDetails{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 15px 0;
+}
+.footer {
+    position: relative;
+    margin-top: 150px;
+    width: 100%;
+    height: 500px;
+    background-image: url('../image/Rectangle-75.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.content {
+    padding: 20px 70px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.top>img {
+    width: 100px;
+    height: 100px;
+}
+
+.follow {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    margin-right: 120px;
+}
+
+.follow p {
+    color: #E9BD8C;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.social img {
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.yellowLine {
+    border: 1px solid #E9BD8C;
+}
+
+.aboutExplore {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 60px;
+}
+
+.c1 {
+    display: flex;
+}
+
+.about {
+    margin-right: 40px;
+}
+
+.about,
+.Explore {
+    color: #F5F5F5;
+}
+
+.about h3,
+.Explore h3,
+.c2 h3 {
+    font-weight: 500;
+    color: #E9BD8C;
+    font-size: 28px;
+}
+
+.about ul li,
+.Explore ul li {
+    font: bold;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.blog {
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+    margin-top: 12px;
+}
+
+.details .date {
+    color: #E9BD8C;
+}
+
+.details .desc {
+    color: #F5F5F5;
+}
+
+.copyright {
+    text-align: center;
+    position: relative;
+    top: 70px;
+    color: #737373;
+    font-weight: 500;
+}

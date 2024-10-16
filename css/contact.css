@@ -73,10 +73,13 @@ header{
     row-gap: 30px;
     padding: 15px ;
     border-radius: 11px;
+    width: 326px;
+    color: #F5F5F5;
     height: 200px;
-
+    
 }
 .card p{
+    font-family: "Sansita Swashed", system-ui;
     text-align: center;
 }
 .padd{

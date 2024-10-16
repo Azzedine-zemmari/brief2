@@ -91,3 +91,108 @@ header{
     color: #933C24;
     font-family: "Sansita Swashed", system-ui;
 }
+.footer {
+    position: relative;
+    margin-top: 150px;
+    width: 100%;
+    height: 500px;
+    background-image: url('../image/Rectangle-75.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.content {
+    padding: 20px 70px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.top>img {
+    width: 100px;
+    height: 100px;
+}
+
+.follow {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    margin-right: 120px;
+}
+
+.follow p {
+    color: #E9BD8C;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.social img {
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.yellowLine {
+    border: 1px solid #E9BD8C;
+}
+
+.aboutExplore {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 60px;
+}
+
+.c1 {
+    display: flex;
+}
+
+.about {
+    margin-right: 40px;
+}
+
+.about,
+.Explore {
+    color: #F5F5F5;
+}
+
+.about h3,
+.Explore h3,
+.c2 h3 {
+    font-weight: 500;
+    color: #E9BD8C;
+    font-size: 28px;
+}
+
+.about ul li,
+.Explore ul li {
+    font: bold;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.blog {
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+    margin-top: 12px;
+}
+
+.details .date {
+    color: #E9BD8C;
+}
+
+.details .desc {
+    color: #F5F5F5;
+}
+
+.copyright {
+    text-align: center;
+    position: relative;
+    top: 70px;
+    color: #737373;
+    font-weight: 500;
+}

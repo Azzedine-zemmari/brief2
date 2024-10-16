@@ -40,7 +40,6 @@ header{
     color: #E9BD8C;
 }
 .home{
-    position: relative;
     width: 100%;
     height: 500px;
     margin-top: 150px; ;
@@ -127,7 +126,6 @@ button{
     border-radius: 9px;
 }
 .footer {
-    position: relative;
     margin-top: 150px;
     width: 100%;
     height: 500px;

@@ -41,7 +41,6 @@ header{
     color: #E9BD8C;
 }
 .home{
-    position: relative;
     width: 100%;
     height: 500px;
     background-image: url("../image/Frameaprops.png");
@@ -92,7 +91,6 @@ header{
     font-family: "Sansita Swashed", system-ui;
 }
 .footer {
-    position: relative;
     margin-top: 150px;
     width: 100%;
     height: 500px;

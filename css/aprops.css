@@ -57,3 +57,37 @@ header{
     font-size: 60px;
     color: #933C24;
 }
+.aprops{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 70px;
+}
+.aprops img{
+    margin-bottom: 20px;
+    width: 216px;
+    height: 216px;
+}
+
+.aprops h2{
+    margin-top: 30px;
+    font-size: 34px;
+}
+.aprops p:nth-of-type(1){
+    font-family: "Sansita Swashed", system-ui;
+    color: #933C24;
+    font-size: 34px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.aprops p:last-child{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+}
+.aprops span{
+    color: #933C24;
+    font-family: "Sansita Swashed", system-ui;
+}

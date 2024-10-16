@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,11 +7,13 @@
     list-style: none;
     scroll-behavior: smooth;
 }
-body{
+
+body {
     background-color: #fff;
     color: #111111;
 }
-header{
+
+header {
     position: fixed;
     top: 0;
     right: 0;
@@ -23,22 +25,27 @@ header{
     align-items: center;
     column-gap: 139px;
 }
-.navbar{
+
+.navbar {
     display: flex;
 }
+
 .logo {
     width: 75px;
     height: 75px;
 }
+
 .navbar a {
     font-size: 20px;
     padding: 10px 22px;
     font-weight: 500;
     color: #F5F5F5;
 }
+
 .navbar li:nth-of-type(2) a {
     color: #E9BD8C;
 }
+
 .menu {
     width: 72%;
     margin: 125px auto 0 auto;
@@ -50,64 +57,75 @@ header{
     font-size: 64px;
     font-weight: 500;
 }
-.cards{
+
+.cards {
     display: grid;
-    grid-template-columns: repeat(3,auto);
-    grid-template-rows: repeat(2,auto);
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
     column-gap: 10px;
     row-gap: 10px;
     margin-top: 20px;
 }
-.card{
+
+.card {
     width: 360px;
     height: 415px;
     background-image: url("../image/Rectangle-69.png");
     background-position: center;
     background-size: cover;
 }
+
 .card .patisry {
     width: 220px;
     margin: 10px 80px 0 80px;
 }
-.card .croisant2{
+
+.card .croisant2 {
     width: 220px;
     margin: 10px 70px 50px;
 }
-.card .bagete{
+
+.card .bagete {
     width: 220px;
     margin: 10px 70px 60px;
 }
-.price{
+
+.price {
     display: flex;
     justify-content: space-between;
     margin: 40px 20px 0 20px;
-    color:#F5F5F5;
+    color: #F5F5F5;
     align-items: center;
 }
-.price p{
+
+.price p {
     font-weight: 400;
     font-size: 24px;
 }
-.detailCard{
+
+.detailCard {
     display: flex;
     justify-content: space-between;
     margin: 40px 20px 15px 20px;
     color: #F5F5F5;
     align-items: center;
 }
-.detailCard p{
+
+.detailCard p {
     font-weight: 400;
     font-size: 20px;
 }
-.detailCard button{
+
+.detailCard button {
     padding: 10px 15px;
     font-size: 18px;
     background-color: #933C24;
     color: #F5F5F5;
 }
+
 .featured {
     width: 72%;
-    margin: 50px auto 0 ;
+    margin: 50px auto 0;
 }
 
 .featured>h2 {
@@ -117,19 +135,23 @@ header{
     font-weight: 500;
     margin-bottom: 50px;
 }
-.Treats{
+
+.Treats {
     display: flex;
     column-gap: 10px;
 }
-.treat{
+
+.treat {
     display: flex;
     flex-direction: column;
 }
-.treatDetails{
+
+.treatDetails {
     display: flex;
     justify-content: space-between;
     margin: 5px 15px 0;
 }
+
 .footer {
     margin-top: 150px;
     width: 100%;

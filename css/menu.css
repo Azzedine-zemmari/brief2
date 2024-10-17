@@ -69,7 +69,7 @@ header {
 
 .card {
     width: 360px;
-    height: 415px;
+    height: 430px;
     background-image: url("../image/Rectangle-69.png");
     background-position: center;
     background-size: cover;
@@ -81,13 +81,13 @@ header {
 }
 
 .card .croisant2 {
-    width: 220px;
+    width: 240px;
     margin: 10px 70px 50px;
 }
 
 .card .bagete {
-    width: 220px;
-    margin: 10px 70px 60px;
+    width: 300px;
+    margin: 10px 50px 60px;
 }
 
 .price {

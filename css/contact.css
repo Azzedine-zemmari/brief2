@@ -108,7 +108,9 @@ header {
     justify-content: center;
     box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.25);
 }
-
+.formulaire hr{
+    margin-bottom: 22px;
+}
 .formulaire h2 {
     text-align: center;
     font-family: "Sansita Swashed", system-ui;
@@ -123,6 +125,7 @@ form {
 form input,
 textarea {
     margin: 10px 0;
+    border: none;
 }
 
 form input {
@@ -150,6 +153,7 @@ button {
     color: #F5F5F5;
     padding: 10px 20px;
     border-radius: 9px;
+    margin-top: 30px;
 }
 
 .footer {

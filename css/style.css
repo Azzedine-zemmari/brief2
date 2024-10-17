@@ -43,7 +43,13 @@ header {
     font-weight: 500;
     color: #F5F5F5;
 }
-
+.navbar li:hover a{
+    color: #E9BD8C;
+    text-decoration: underline;
+    text-decoration-color: #E9BD8C;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2 px;
+}
 .navbar li:nth-of-type(1) a {
     color: #E9BD8C;
 }
@@ -71,6 +77,9 @@ header {
     margin: 20px 0;
     font-family: 'Poppins', sans-serif;
 }
+.home .yellowP>a{
+    color: #E9BD8C;
+}
 
 .home-text h1 {
     margin: 12px 0;
@@ -93,8 +102,19 @@ header {
     color: #F5F5F5;
     font-size: 17px;
     font-weight: 500;
+    transition: all ease-in 0.2s;
 
 }
+.inline button:hover{
+    background-color: #F5F5F5;
+}
+.inline button:hover a{
+    color: #933C24;
+}
+.inline button>a{
+    color: #F5F5F5;
+}
+
 
 /* pour le script de header */
 header.sticky {
@@ -142,6 +162,10 @@ header.sticky {
     row-gap: 10px;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(2, auto);
+    transition: transform ease 2s;
+}
+.gallery img:hover{
+    transform: scale(0.99);
 }
 
 .footer {
@@ -172,7 +196,7 @@ header.sticky {
 .follow {
     display: flex;
     align-items: center;
-    column-gap: 20px;
+    column-gap: 39px;
     margin-right: 120px;
 }
 
@@ -183,7 +207,7 @@ header.sticky {
 }
 
 .social img {
-    margin-right: 10px;
+    margin-right: 20px;
     width: 35px;
     height: 35px;
 }

@@ -42,7 +42,13 @@ header {
     font-weight: 500;
     color: #F5F5F5;
 }
-
+.navbar li:hover a{
+    color: #E9BD8C;
+    text-decoration: underline;
+    text-decoration-color: #E9BD8C;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2 px;
+}
 .navbar li:nth-of-type(4) a {
     color: #E9BD8C;
 }
@@ -132,7 +138,7 @@ header {
 .follow {
     display: flex;
     align-items: center;
-    column-gap: 20px;
+    column-gap: 39px;
     margin-right: 120px;
 }
 
@@ -143,7 +149,7 @@ header {
 }
 
 .social img {
-    margin-right: 10px;
+    margin-right: 20px;
     width: 35px;
     height: 35px;
 }

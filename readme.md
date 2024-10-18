@@ -35,3 +35,7 @@ We welcome contributions! If you have suggestions or improvements, please feel f
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## links
+[maquette](https://www.figma.com/design/Wd2Bsc1rpnTK2bEVtzNlEr/azzedine-brief2?node-id=0-1&node-type=canvas&t=iW1US3SttF9EmHiB-0)
+[planification](https://trello.com/invite/b/670ea9fc3f3552691aaec00f/ATTI22c62377adc51b77c56e1addd328396b9767C591/beldi-brief)

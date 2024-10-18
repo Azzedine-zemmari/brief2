@@ -162,6 +162,11 @@ button {
     padding: 10px 20px;
     border-radius: 9px;
     margin-top: 30px;
+    transition: all ease 1s;
+}
+button:hover{
+    background-color: #F5F5F5;
+    color: #933C24;
 }
 
 .footer {
@@ -263,8 +268,10 @@ button {
 
 .copyright {
     text-align: center;
-    position: relative;
-    top: 70px;
     color: #737373;
     font-weight: 500;
+    margin: 50px 0;
+}
+.bold{
+    font-weight: 600;
 }

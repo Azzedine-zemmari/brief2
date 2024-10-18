@@ -209,8 +209,10 @@ header {
 
 .copyright {
     text-align: center;
-    position: relative;
-    top: 70px;
     color: #737373;
     font-weight: 500;
+    margin: 50px 0;
+}
+.bold{
+    font-weight: 600;
 }

@@ -80,6 +80,12 @@ header {
 .home .yellowP>a{
     color: #E9BD8C;
 }
+.home .yellowP>a:hover{
+    text-decoration: underline;
+    text-decoration-color: #E9BD8C;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+}
 
 .home-text h1 {
     margin: 12px 0;
@@ -103,6 +109,7 @@ header {
     font-size: 17px;
     font-weight: 500;
     transition: all ease-in 0.2s;
+    cursor: pointer;
 
 }
 .inline button:hover{
@@ -267,8 +274,10 @@ header.sticky {
 
 .copyright {
     text-align: center;
-    position: relative;
-    top: 70px;
     color: #737373;
     font-weight: 500;
+    margin: 50px 0;
+}   
+.bold{
+    font-weight: 600;
 }
